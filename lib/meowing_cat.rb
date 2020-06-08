@@ -1,3 +1,5 @@
+require "pry"
+
 class Cat 
   
   attr_accessor :cat
@@ -7,3 +9,5 @@ class Cat
   end
   
 end 
+
+binding.pry
